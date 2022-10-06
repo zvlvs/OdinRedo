@@ -1,0 +1,52 @@
+*
+*::before,  
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+.navbar a {
+    display: block;
+    color: #e5ebe7;
+    text-decoration: none;
+    
+}
+
+.left-nav-list{
+    margin-left: 48px;
+    
+}
+
+.right-nav-list{
+    display: flex;  
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 48px;
+}
+
+.right-nav-list a {
+    padding: 16px;  
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5ebe7;
+    flex: 1;
+}
